@@ -8,14 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		84A8A51B29366E5000D0FBBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A51A29366E5000D0FBBD /* AppDelegate.swift */; };
-		84A8A51D29366E5000D0FBBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A51C29366E5000D0FBBD /* SceneDelegate.swift */; };
-		84A8A51F29366E5000D0FBBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A51E29366E5000D0FBBD /* ViewController.swift */; };
 		84A8A52229366E5000D0FBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A8A52029366E5000D0FBBD /* Main.storyboard */; };
 		84A8A52429366E5400D0FBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A8A52329366E5400D0FBBD /* Assets.xcassets */; };
 		84A8A52729366E5400D0FBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A8A52529366E5400D0FBBD /* LaunchScreen.storyboard */; };
 		84A8A53229366E5500D0FBBD /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A53129366E5500D0FBBD /* BridgeTests.swift */; };
 		84A8A53C29366E5500D0FBBD /* BridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A53B29366E5500D0FBBD /* BridgeUITests.swift */; };
 		84A8A53E29366E5500D0FBBD /* BridgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A53D29366E5500D0FBBD /* BridgeUITestsLaunchTests.swift */; };
+		84A8A54E29366EA000D0FBBD /* BridgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A54D29366EA000D0FBBD /* BridgeVC.swift */; };
+		84A8A55429366F9C00D0FBBD /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A55329366F9C00D0FBBD /* Abstraction.swift */; };
+		84A8A55629366FAD00D0FBBD /* ExtendedAbstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A55529366FAD00D0FBBD /* ExtendedAbstraction.swift */; };
+		84A8A55929366FC900D0FBBD /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A55829366FC900D0FBBD /* Implementation.swift */; };
+		84A8A55B29366FD900D0FBBD /* ConcreteImplementationA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A55A29366FD900D0FBBD /* ConcreteImplementationA.swift */; };
+		84A8A55D29366FEF00D0FBBD /* ConcreteImplementationB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A55C29366FEF00D0FBBD /* ConcreteImplementationB.swift */; };
+		84A8A5602936701D00D0FBBD /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A55F2936701D00D0FBBD /* Client.swift */; };
+		84A8A563293670FD00D0FBBD /* SharingSupportable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A562293670FD00D0FBBD /* SharingSupportable.swift */; };
+		84A8A5662936711500D0FBBD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A5652936711500D0FBBD /* BaseViewController.swift */; };
+		84A8A5692936713500D0FBBD /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A5682936713500D0FBBD /* PhotoViewController.swift */; };
+		84A8A56C2936717D00D0FBBD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A56B2936717D00D0FBBD /* FeedViewController.swift */; };
+		84A8A571293671CE00D0FBBD /* SharingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A570293671CE00D0FBBD /* SharingService.swift */; };
+		84A8A574293671DF00D0FBBD /* FaceBookSharingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A573293671DF00D0FBBD /* FaceBookSharingService.swift */; };
+		84A8A577293671FF00D0FBBD /* InstagramSharingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A576293671FF00D0FBBD /* InstagramSharingService.swift */; };
+		84A8A57C2936724000D0FBBD /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A57B2936724000D0FBBD /* Content.swift */; };
+		84A8A57E2936724C00D0FBBD /* FoodDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A57D2936724C00D0FBBD /* FoodDomainModel.swift */; };
+		84A8A5802936731C00D0FBBD /* Info.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 84A8A57F2936731C00D0FBBD /* Info.rtfd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +53,6 @@
 /* Begin PBXFileReference section */
 		84A8A51729366E5000D0FBBD /* Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A8A51A29366E5000D0FBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84A8A51C29366E5000D0FBBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84A8A51E29366E5000D0FBBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84A8A52129366E5000D0FBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A8A52329366E5400D0FBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A8A52629366E5400D0FBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,23 @@
 		84A8A53729366E5500D0FBBD /* BridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A8A53B29366E5500D0FBBD /* BridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeUITests.swift; sourceTree = "<group>"; };
 		84A8A53D29366E5500D0FBBD /* BridgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84A8A54D29366EA000D0FBBD /* BridgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeVC.swift; sourceTree = "<group>"; };
+		84A8A55329366F9C00D0FBBD /* Abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
+		84A8A55529366FAD00D0FBBD /* ExtendedAbstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedAbstraction.swift; sourceTree = "<group>"; };
+		84A8A55829366FC900D0FBBD /* Implementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implementation.swift; sourceTree = "<group>"; };
+		84A8A55A29366FD900D0FBBD /* ConcreteImplementationA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteImplementationA.swift; sourceTree = "<group>"; };
+		84A8A55C29366FEF00D0FBBD /* ConcreteImplementationB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteImplementationB.swift; sourceTree = "<group>"; };
+		84A8A55F2936701D00D0FBBD /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		84A8A562293670FD00D0FBBD /* SharingSupportable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingSupportable.swift; sourceTree = "<group>"; };
+		84A8A5652936711500D0FBBD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		84A8A5682936713500D0FBBD /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		84A8A56B2936717D00D0FBBD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		84A8A570293671CE00D0FBBD /* SharingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingService.swift; sourceTree = "<group>"; };
+		84A8A573293671DF00D0FBBD /* FaceBookSharingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookSharingService.swift; sourceTree = "<group>"; };
+		84A8A576293671FF00D0FBBD /* InstagramSharingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSharingService.swift; sourceTree = "<group>"; };
+		84A8A57B2936724000D0FBBD /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		84A8A57D2936724C00D0FBBD /* FoodDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDomainModel.swift; sourceTree = "<group>"; };
+		84A8A57F2936731C00D0FBBD /* Info.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = Info.rtfd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +130,13 @@
 			isa = PBXGroup;
 			children = (
 				84A8A51A29366E5000D0FBBD /* AppDelegate.swift */,
-				84A8A51C29366E5000D0FBBD /* SceneDelegate.swift */,
-				84A8A51E29366E5000D0FBBD /* ViewController.swift */,
-				84A8A52029366E5000D0FBBD /* Main.storyboard */,
+				84A8A55129366ECE00D0FBBD /* Example */,
+				84A8A54F29366EC000D0FBBD /* Concept */,
+				84A8A54B29366E8100D0FBBD /* ViewController's */,
+				84A8A54A29366E7900D0FBBD /* Storyboards */,
 				84A8A52329366E5400D0FBBD /* Assets.xcassets */,
-				84A8A52529366E5400D0FBBD /* LaunchScreen.storyboard */,
 				84A8A52829366E5400D0FBBD /* Info.plist */,
+				84A8A57F2936731C00D0FBBD /* Info.rtfd */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
@@ -125,6 +156,172 @@
 				84A8A53D29366E5500D0FBBD /* BridgeUITestsLaunchTests.swift */,
 			);
 			path = BridgeUITests;
+			sourceTree = "<group>";
+		};
+		84A8A54A29366E7900D0FBBD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A52029366E5000D0FBBD /* Main.storyboard */,
+				84A8A52529366E5400D0FBBD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84A8A54B29366E8100D0FBBD /* ViewController's */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A54C29366E8900D0FBBD /* BridgeVC */,
+			);
+			path = "ViewController's";
+			sourceTree = "<group>";
+		};
+		84A8A54C29366E8900D0FBBD /* BridgeVC */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A54D29366EA000D0FBBD /* BridgeVC.swift */,
+			);
+			path = BridgeVC;
+			sourceTree = "<group>";
+		};
+		84A8A54F29366EC000D0FBBD /* Concept */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A55229366F9500D0FBBD /* Abstraction */,
+				84A8A55729366FBB00D0FBBD /* Implementation */,
+				84A8A55E2936701100D0FBBD /* Client */,
+			);
+			path = Concept;
+			sourceTree = "<group>";
+		};
+		84A8A55129366ECE00D0FBBD /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A56D2936719800D0FBBD /* ViewController's */,
+				84A8A56E293671AF00D0FBBD /* Sharing */,
+				84A8A5782936721700D0FBBD /* Models */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		84A8A55229366F9500D0FBBD /* Abstraction */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A55329366F9C00D0FBBD /* Abstraction.swift */,
+				84A8A55529366FAD00D0FBBD /* ExtendedAbstraction.swift */,
+			);
+			path = Abstraction;
+			sourceTree = "<group>";
+		};
+		84A8A55729366FBB00D0FBBD /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A55829366FC900D0FBBD /* Implementation.swift */,
+				84A8A55A29366FD900D0FBBD /* ConcreteImplementationA.swift */,
+				84A8A55C29366FEF00D0FBBD /* ConcreteImplementationB.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		84A8A55E2936701100D0FBBD /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A55F2936701D00D0FBBD /* Client.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		84A8A561293670B300D0FBBD /* SharingSupportable */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A562293670FD00D0FBBD /* SharingSupportable.swift */,
+			);
+			path = SharingSupportable;
+			sourceTree = "<group>";
+		};
+		84A8A5642936710C00D0FBBD /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A5652936711500D0FBBD /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		84A8A5672936712E00D0FBBD /* PhotoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A5682936713500D0FBBD /* PhotoViewController.swift */,
+			);
+			path = PhotoViewController;
+			sourceTree = "<group>";
+		};
+		84A8A56A2936716B00D0FBBD /* FeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A56B2936717D00D0FBBD /* FeedViewController.swift */,
+			);
+			path = FeedViewController;
+			sourceTree = "<group>";
+		};
+		84A8A56D2936719800D0FBBD /* ViewController's */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A5642936710C00D0FBBD /* BaseViewController */,
+				84A8A56A2936716B00D0FBBD /* FeedViewController */,
+				84A8A5672936712E00D0FBBD /* PhotoViewController */,
+			);
+			path = "ViewController's";
+			sourceTree = "<group>";
+		};
+		84A8A56E293671AF00D0FBBD /* Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A56F293671BB00D0FBBD /* SharingService */,
+				84A8A561293670B300D0FBBD /* SharingSupportable */,
+				84A8A572293671D800D0FBBD /* FaceBookSharingService */,
+				84A8A575293671F300D0FBBD /* InstagramSharingService */,
+			);
+			path = Sharing;
+			sourceTree = "<group>";
+		};
+		84A8A56F293671BB00D0FBBD /* SharingService */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A570293671CE00D0FBBD /* SharingService.swift */,
+			);
+			path = SharingService;
+			sourceTree = "<group>";
+		};
+		84A8A572293671D800D0FBBD /* FaceBookSharingService */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A573293671DF00D0FBBD /* FaceBookSharingService.swift */,
+			);
+			path = FaceBookSharingService;
+			sourceTree = "<group>";
+		};
+		84A8A575293671F300D0FBBD /* InstagramSharingService */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A576293671FF00D0FBBD /* InstagramSharingService.swift */,
+			);
+			path = InstagramSharingService;
+			sourceTree = "<group>";
+		};
+		84A8A5782936721700D0FBBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A57A2936722C00D0FBBD /* Content */,
+				84A8A57D2936724C00D0FBBD /* FoodDomainModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84A8A57A2936722C00D0FBBD /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A57B2936724000D0FBBD /* Content.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +430,7 @@
 			files = (
 				84A8A52729366E5400D0FBBD /* LaunchScreen.storyboard in Resources */,
 				84A8A52429366E5400D0FBBD /* Assets.xcassets in Resources */,
+				84A8A5802936731C00D0FBBD /* Info.rtfd in Resources */,
 				84A8A52229366E5000D0FBBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +456,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A8A51F29366E5000D0FBBD /* ViewController.swift in Sources */,
+				84A8A55D29366FEF00D0FBBD /* ConcreteImplementationB.swift in Sources */,
+				84A8A577293671FF00D0FBBD /* InstagramSharingService.swift in Sources */,
+				84A8A563293670FD00D0FBBD /* SharingSupportable.swift in Sources */,
+				84A8A57C2936724000D0FBBD /* Content.swift in Sources */,
+				84A8A55929366FC900D0FBBD /* Implementation.swift in Sources */,
+				84A8A571293671CE00D0FBBD /* SharingService.swift in Sources */,
+				84A8A574293671DF00D0FBBD /* FaceBookSharingService.swift in Sources */,
 				84A8A51B29366E5000D0FBBD /* AppDelegate.swift in Sources */,
-				84A8A51D29366E5000D0FBBD /* SceneDelegate.swift in Sources */,
+				84A8A54E29366EA000D0FBBD /* BridgeVC.swift in Sources */,
+				84A8A57E2936724C00D0FBBD /* FoodDomainModel.swift in Sources */,
+				84A8A5662936711500D0FBBD /* BaseViewController.swift in Sources */,
+				84A8A55429366F9C00D0FBBD /* Abstraction.swift in Sources */,
+				84A8A55B29366FD900D0FBBD /* ConcreteImplementationA.swift in Sources */,
+				84A8A5602936701D00D0FBBD /* Client.swift in Sources */,
+				84A8A55629366FAD00D0FBBD /* ExtendedAbstraction.swift in Sources */,
+				84A8A56C2936717D00D0FBBD /* FeedViewController.swift in Sources */,
+				84A8A5692936713500D0FBBD /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +655,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +663,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Bridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,8 +685,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +693,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Bridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
